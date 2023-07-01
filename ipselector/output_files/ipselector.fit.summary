@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Jun 29 00:29:45 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : ipselector
+Top-level Entity Name : ipselector
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 17,246 / 49,760 ( 35 % )
+    Total combinational functions : 17,038 / 49,760 ( 34 % )
+    Dedicated logic registers : 6,683 / 49,760 ( 13 % )
+Total registers : 6683
+Total pins : 10 / 360 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 1,256,448 / 1,677,312 ( 75 % )
+Embedded Multiplier 9-bit elements : 250 / 288 ( 87 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

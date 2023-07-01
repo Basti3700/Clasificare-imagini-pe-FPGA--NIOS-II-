@@ -1,0 +1,6 @@
+21:54:00 **** Incremental Build of configuration Nios II for project ipselector6_bsp ****
+wsl make all 
+[BSP build complete]
+
+21:54:00 Build Finished (took 366ms)
+

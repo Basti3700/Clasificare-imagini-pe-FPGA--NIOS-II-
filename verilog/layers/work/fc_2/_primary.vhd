@@ -1,0 +1,32 @@
+library verilog;
+use verilog.vl_types.all;
+entity fc_2 is
+    generic(
+        S_IDLE          : integer := 64;
+        S_CHECK         : integer := 32;
+        S_LOAD_WEIGHTS  : integer := 16;
+        S_LOAD_BIAS     : integer := 8;
+        S_LOAD_DATA     : integer := 4;
+        S_MULTI_ADD     : integer := 2;
+        S_STORE_RESULT  : integer := 1;
+        fc1_result_base : integer := 8000;
+        fc2_weights_base: integer := 61276;
+        fc2_bias_base   : integer := 62276;
+        fc2_result_base : integer := 8084
+    );
+    port(
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        fc_2_en         : in     vl_logic;
+        bias_weights_bram_douta: in     vl_logic_vector(15 downto 0);
+        result_bram_douta: in     vl_logic_vector(15 downto 0);
+        bias_weights_bram_ena: out    vl_logic;
+        bias_weights_bram_addra: out    vl_logic_vector(15 downto 0);
+        result_bram_ena : out    vl_logic;
+        result_bram_wea : out    vl_logic;
+        result_bram_addra: out    vl_logic_vector(12 downto 0);
+        result_bram_dina: out    vl_logic_vector(15 downto 0);
+        fc_2_finish     : out    vl_logic;
+        out_result      : out    vl_logic_vector(159 downto 0)
+    );
+end fc_2;

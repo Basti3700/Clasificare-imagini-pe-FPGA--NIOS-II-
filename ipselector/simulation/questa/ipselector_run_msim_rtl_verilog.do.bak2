@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlib ipselector
+vmap ipselector ipselector
+vlog -vlog01compat -work ipselector +incdir+C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules {C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/data_nios.v}
+vlog -vlog01compat -work ipselector +incdir+C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules {C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/ipselector_button.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/ipselector {C:/Users/minut/Desktop/ipselector/blk_mem_gen_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/ipselector {C:/Users/minut/Desktop/ipselector/blk_mem_gen_1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/ipselector {C:/Users/minut/Desktop/ipselector/blk_mem_gen_2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v}
+vlog -sv -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/tops.sv}
+vlog -sv -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv}
+vlog -sv -work work +incdir+C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg {C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv}
+

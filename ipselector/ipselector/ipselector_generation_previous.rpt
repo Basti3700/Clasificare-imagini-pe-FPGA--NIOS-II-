@@ -1,0 +1,123 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\minut\Desktop\ipselector\ipselector.qsys --block-symbol-file --output-directory=C:\Users\minut\Desktop\ipselector\ipselector --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ipselector/ipselector.qsys
+Progress: Reading input file
+Progress: Adding button [altera_avalon_pio 22.1]
+Progress: Parameterizing module button
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding debug [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module debug
+Progress: Adding ipselector [altera_nios2_gen2 22.1]
+Progress: Parameterizing module ipselector
+Progress: Adding nios_top [nios_top 1.0]
+Progress: Parameterizing module nios_top
+Progress: Adding sdram [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module sdram
+Progress: Adding seg7 [altera_avalon_pio 22.1]
+Progress: Parameterizing module seg7
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ipselector.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ipselector.debug: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\minut\Desktop\ipselector\ipselector.qsys --synthesis=VERILOG --output-directory=C:\Users\minut\Desktop\ipselector\ipselector\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ipselector/ipselector.qsys
+Progress: Reading input file
+Progress: Adding button [altera_avalon_pio 22.1]
+Progress: Parameterizing module button
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Adding debug [altera_avalon_jtag_uart 22.1]
+Progress: Parameterizing module debug
+Progress: Adding ipselector [altera_nios2_gen2 22.1]
+Progress: Parameterizing module ipselector
+Progress: Adding nios_top [nios_top 1.0]
+Progress: Parameterizing module nios_top
+Progress: Adding sdram [altera_avalon_onchip_memory2 22.1]
+Progress: Parameterizing module sdram
+Progress: Adding seg7 [altera_avalon_pio 22.1]
+Progress: Parameterizing module seg7
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ipselector.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ipselector.debug: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: ipselector: Generating ipselector "ipselector" for QUARTUS_SYNTH
+Info: button: Starting RTL generation for module 'ipselector_button'
+Info: button:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=ipselector_button --dir=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0003_button_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0003_button_gen//ipselector_button_component_configuration.pl  --do_build_sim=0  ]
+Info: button: Done RTL generation for module 'ipselector_button'
+Info: button: "ipselector" instantiated altera_avalon_pio "button"
+Info: debug: Starting RTL generation for module 'ipselector_debug'
+Info: debug:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=ipselector_debug --dir=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0004_debug_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0004_debug_gen//ipselector_debug_component_configuration.pl  --do_build_sim=0  ]
+Info: debug: Done RTL generation for module 'ipselector_debug'
+Info: debug: "ipselector" instantiated altera_avalon_jtag_uart "debug"
+Info: ipselector: "ipselector" instantiated altera_nios2_gen2 "ipselector"
+Info: nios_top: "ipselector" instantiated nios_top "nios_top"
+Info: sdram: Starting RTL generation for module 'ipselector_sdram'
+Info: sdram:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=ipselector_sdram --dir=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0006_sdram_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0006_sdram_gen//ipselector_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'ipselector_sdram'
+Info: sdram: "ipselector" instantiated altera_avalon_onchip_memory2 "sdram"
+Info: seg7: Starting RTL generation for module 'ipselector_seg7'
+Info: seg7:   Generation command is [exec C:/intelfpga_lite/22.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/22.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=ipselector_seg7 --dir=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0007_seg7_gen/ --quartus_dir=C:/intelfpga_lite/22.1std/quartus --verilog --config=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0007_seg7_gen//ipselector_seg7_component_configuration.pl  --do_build_sim=0  ]
+Info: seg7: Done RTL generation for module 'ipselector_seg7'
+Info: seg7: "ipselector" instantiated altera_avalon_pio "seg7"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "ipselector" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "ipselector" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "ipselector" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'ipselector_ipselector_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/22.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/22.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/22.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/22.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=ipselector_ipselector_cpu --dir=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/22.1std/quartus/bin64/ --verilog --config=C:/Users/minut/AppData/Local/Temp/alt9523_1083724901511095132.dir/0010_cpu_gen//ipselector_ipselector_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.06.16 01:17:12 (*) Starting Nios II generation
+Info: cpu: # 2023.06.16 01:17:12 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.06.16 01:17:12 (*)   Creating all objects for CPU
+Info: cpu: # 2023.06.16 01:17:13 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.06.16 01:17:13 (*)   Creating plain-text RTL
+Info: cpu: # 2023.06.16 01:17:13 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'ipselector_ipselector_cpu'
+Info: cpu: "ipselector" instantiated altera_nios2_gen2_unit "cpu"
+Info: ipselector_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "ipselector_data_master_translator"
+Info: debug_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "debug_avalon_jtag_slave_translator"
+Info: ipselector_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "ipselector_data_master_agent"
+Info: debug_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "debug_avalon_jtag_slave_agent"
+Info: debug_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "debug_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: nios_top_avalon_slave_0_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "nios_top_avalon_slave_0_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: nios_top_avalon_slave_0_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "nios_top_avalon_slave_0_rsp_width_adapter"
+Info: Reusing file C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/minut/Desktop/ipselector/ipselector/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: avalon_st_adapter_003: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_003"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_003" instantiated error_adapter "error_adapter_0"
+Info: ipselector: Done "ipselector" with 37 modules, 59 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

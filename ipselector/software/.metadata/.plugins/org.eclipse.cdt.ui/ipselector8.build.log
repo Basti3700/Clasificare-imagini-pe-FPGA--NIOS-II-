@@ -1,0 +1,22 @@
+00:04:38 **** Incremental Build of configuration Nios II for project ipselector8 ****
+wsl make all 
+Info: Building /mnt/c/Users/minut/Desktop/ipselector/software/ipselector8_bsp/
+make --no-print-directory -C /mnt/c/Users/minut/Desktop/ipselector/software/ipselector8_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc.exe -xc -MP -MMD -c -Ic:/Users/minut/Desktop/ipselector/software/ipselector8_bsp//HAL/inc -Ic:/Users/minut/Desktop/ipselector/software/ipselector8_bsp/ -Ic:/Users/minut/Desktop/ipselector/software/ipselector8_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o "obj/default/hello_world_small.o" "hello_world_small.c"
+hello_world_small.c: In function 'main':
+hello_world_small.c:177:9: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  177 |         usleep(100000);
+      |         ^~~~~~
+Info: Linking ipselector8.elf
+nios2-elf-g++.exe  -T'c:/Users/minut/Desktop/ipselector/software/ipselector8_bsp//linker.x' -msys-crt0='c:/Users/minut/Desktop/ipselector/software/ipselector8_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -Lc:/Users/minut/Desktop/ipselector/software/ipselector8_bsp/  -msmallc  -Wl,-Map=ipselector8.map   -Os -g -Wall   -mno-hw-div -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o ipselector8.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert.exe ipselector8.elf --thread_model hal --cpu_name ipselector --qsys true --simulation_enabled false --stderr_dev debug --stdin_dev debug --stdout_dev debug --sopc_system_name ipselector --quartus_project_dir "c:/Users/minut/Desktop/ipselector" --jdi ../..//output_files/ipselector.jdi --sopcinfo c:/Users/minut/Desktop/ipselector/ipselector.sopcinfo
+Info: (ipselector8.elf) 8284 Bytes program size (code + initialized data).
+Info:                   31 KBytes free for stack + heap.
+Info: Creating ipselector8.objdump
+nios2-elf-objdump.exe --disassemble --syms --all-header --source ipselector8.elf >ipselector8.objdump
+[ipselector8 build complete]
+
+00:04:40 Build Finished (took 2s.150ms)
+

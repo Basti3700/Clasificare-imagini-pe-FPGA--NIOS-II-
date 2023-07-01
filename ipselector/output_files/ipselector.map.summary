@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Jun 29 00:28:42 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : ipselector
+Top-level Entity Name : ipselector
+Family : MAX 10
+Total logic elements : 17,424
+    Total combinational functions : 17,035
+    Dedicated logic registers : 6,691
+Total registers : 6691
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 1,256,448
+Embedded Multiplier 9-bit elements : 250
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,326 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_verilog\layers
+T_opt
+VNo>N<E9U?iZSkRQ_@KZNk1
+Z1 04 3 4 work TOP fast 0
+=1-dcf5056634ac-648b0e09-3bc-1834
+o-quiet -auto_acc_if_foreign -work work -L C:/Users/minut/Desktop/verilog_libs/altera_mf_ver +acc
+n@_opt
+Z2 OE;O;6.6d;45
+Z3 dC:\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_verilog\layers
+T_opt1
+VAfJEGYi:MZY<cXkQa4JWU1
+R1
+=1-dcf5056634ac-648fa3df-340-3294
+o-quiet -auto_acc_if_foreign -work work -L C:/Users/minut/Desktop/lib_project/verilog_libs/altera_mf_ver
+n@_opt1
+R2
+R3
+T_opt2
+VYlOZ:dlQNVZdzzHF9Caak0
+R1
+=1-dcf5056634ac-6474692c-118-35ac
+o-quiet -auto_acc_if_foreign -work work
+n@_opt2
+R2
+R3
+vblk_mem_gen_0
+VlnmM7iz5:jGfzVA4bS^UE0
+r1
+31
+IdDaIfYe@2f2L^4Bo>gXb93
+R3
+w1687895995
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_0.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_0.v
+L0 40
+Z4 OE;L;6.6d;45
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 ?`:a=NBG0S@XN?GK62TNV3
+vblk_mem_gen_1
+VUAn2ePN0G[PNd0:Eai_=j3
+r1
+31
+IdSR7;:Ymc?^0C^i?KY`3z1
+R3
+w1687894842
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_1.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_1.v
+L0 40
+R4
+R5
+!s85 0
+!s100 ]]4TP1nE4Tl78>=fPfZEj1
+vblk_mem_gen_2
+V0CEfJ1fE>9cBA=b4C>QcZ2
+r1
+!s85 0
+31
+I^Q546hOgW<4Rc=M7jd0Oi3
+R3
+w1687895869
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_2.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/mems/blk_mem_gen_2.v
+L0 40
+R4
+R5
+!s100 :REG>YSEZcb7M7:EN3[FQ0
+vconv_1
+Vd>ALnTNS:mClD4EaONP]i1
+r1
+31
+I13GjM6>SYm=[InGC9;bzH1
+R3
+w1687879559
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v
+L0 11
+R4
+R5
+!s100 2>_3zfZTXzN3CM=0US?:73
+!s85 0
+vconv_2
+V`agEl?YGFjFV490TzQkb00
+r1
+31
+IiBhYOn=44kE9JRl8LB14d2
+R3
+Z6 w1687879560
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v
+L0 29
+R4
+R5
+!s100 >U8AUU55OW:KZ[5@2@jMT3
+!s85 0
+vconv_3
+V30Xo4ZZN1LU^jHOH`X1U63
+r1
+31
+IDOa[K@?<2g9KRE:NToblX2
+R3
+R6
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v
+L0 29
+R4
+R5
+!s100 @mOZdHWh[IXKeh^@Wkng;1
+!s85 0
+vfc_1
+VUa@5Y=mFbGR>AIhjbk85L3
+r1
+31
+IB<G?L:K5A6KQ[?WQNj8cH3
+R3
+Z7 w1687879561
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v
+L0 27
+R4
+R5
+!s100 <8Vj5L:DSTW217fCBjK5X0
+!s85 0
+vfc_2
+V^^6lehLNJe8onh5YEgQFC1
+r1
+31
+IhM7SNhhSCei?RZfG?C<J92
+R3
+R7
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v
+L0 26
+R4
+R5
+!s100 j;gb3]S?<EUk6>F05g;Wi0
+!s85 0
+vlarger_index
+VPPf?`<K2zGLGJGQB^3V9?1
+r1
+31
+I9:15O>c:?;HgTQ_hlKhEF0
+R3
+Z8 w1665201134
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v
+L0 1
+R4
+R5
+!s100 IoSLgSMNf;?3PFcoiO0id2
+!s85 0
+vlenet_top
+VGN>X=LZBmBbkWF;5]m3Mc2
+r1
+31
+I1oCY1==RfIPKc;`f>hMZ11
+R3
+w1687896162
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v
+L0 34
+R4
+R5
+!s85 0
+!s100 6ZABmkXO?gQJ=6LocDFGe3
+vmax_index_10
+VTP?ieCI`B@S5;nDdD]KV83
+r1
+31
+IJkKLbRYN`95;4D62;B8^03
+R3
+R8
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v
+L0 1
+R4
+R5
+!s100 AgFV6X4QDz[EVeU836[GU1
+!s85 0
+vmax_pool
+VOo9FJ;o9337QQ1h[7XzQP1
+r1
+31
+I]X7F`6QeMf2O66oH`8YhC3
+R3
+R8
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v
+L0 24
+R4
+R5
+!s100 Aj`l0BSN5jM[OzG4PFTn[1
+!s85 0
+vmulti_add
+V78XD]2;YlNUY8]4=7dz0J0
+r1
+31
+I1MhXGhD2lj3]KoPPnm0Ye3
+R3
+R8
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v
+L0 26
+R4
+R5
+!s100 CU`FLAgb=:_R?:WSHMFoY0
+!s85 0
+vpool_1
+V`UgIC>1UJXC?kfKm9cdYU0
+r1
+31
+IkN3=5ga`9HGe7Hmo5_Mji2
+R3
+Z9 w1687879562
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v
+L0 28
+R4
+R5
+!s100 TRMj8=ooa1kP]0=<c<gW@3
+!s85 0
+vpool_2
+VjJSoSo?WbZnSeENbfFEEF0
+r1
+31
+I@AV8AI^X=Rc:Oe22iz8F>3
+R3
+R9
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v
+L0 28
+R4
+R5
+!s100 LTG12L]R7Dof1ZH70TMX33
+!s85 0
+vrelu_1
+VaCSE>]555gFk?=LPz0K1l3
+r1
+31
+IhR2R^Me=k@L54<FPf8P1E0
+R3
+R8
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v
+L0 24
+R4
+R5
+!s100 CL^<^^CB<OOTPESAGURFC3
+!s85 0
+vTOP
+Z10 Mx1 6 sv_std 3 std
+Z11 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+V59gdggm`9@FJPa]O`=fIG2
+r1
+31
+IRU>86]U6fYI[]Rieoo42e2
+S1
+R3
+w1687887354
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/testbench/TOP.sv
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/testbench/TOP.sv
+L0 5
+R4
+R5
+n@t@o@p
+!s105 TOP_sv_unit
+!s100 56O3XQD8=ezZGAkB4^T=?2
+!s85 0
+vtops
+R10
+R11
+V]gVL2[]N`3HD?:ComR`E83
+r1
+31
+I@_H]UUFDD6oFDlFT]LF]G2
+S1
+R3
+w1686834544
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/tops.sv
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/tops.sv
+L0 1
+R4
+R5
+!s100 i2]bJfJGk07hc2D87d9F51
+!s105 tops_sv_unit
+!s85 0
+vx7seg_dec
+R10
+R11
+VRRa>0gW_`a3zki5Z2`6PX2
+r1
+31
+IoiS[Jhm?9T=NLJ9MYiFhM0
+S1
+R3
+w1686869572
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv
+L0 3
+R4
+R5
+!s100 @E;?I0ho0[QHm^]:>[3OK2
+!s105 x7seg_dec_sv_unit
+!s85 0
+vx7seg_scan
+R10
+R11
+V:L1UXo?Ed?SISem2@hQT42
+r1
+31
+IDelN:jXz0[UWKLTI^ZbVa3
+S1
+R3
+R8
+8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv
+FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv
+L0 3
+R4
+R5
+!s100 `J4a?81[cF]^mKf4KW<`=2
+!s105 x7seg_scan_sv_unit
+!s85 0

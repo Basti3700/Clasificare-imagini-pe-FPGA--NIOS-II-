@@ -1,0 +1,6 @@
+00:29:11 **** Build of configuration Nios II for project ipselector9_bsp ****
+wsl make all 
+[BSP build complete]
+
+00:29:11 Build Finished (took 316ms)
+

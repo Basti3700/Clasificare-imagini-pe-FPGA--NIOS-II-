@@ -1,0 +1,2647 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_verilog\layers
+T_opt
+Z1 VWk?FT2^z8kdAoob9::O8U3
+Z2 04 3 4 work TOP fast 0
+Z3 =1-dcf5056634ac-6470368c-3c4-2df8
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_verilog\layers
+T_opt1
+Z8 V@Ue=E1g@bBm6GY<MA1Wzi1
+Z9 04 9 4 work lenet_top fast 0
+Z10 =1-dcf5056634ac-647467bb-1e8-2eb8
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 VYlOZ:dlQNVZdzzHF9Caak0
+R2
+Z13 =1-dcf5056634ac-6474692c-118-35ac
+Z14 o-quiet -auto_acc_if_foreign -work work
+Z15 n@_opt2
+R6
+R7
+vbeh_vlog_ff_ce_clr_v8_4
+Z16 I4I>GJj8mL1@zo5m=Q>L880
+Z17 VF1[3gl@1cfM0INP>Pi3OY2
+R7
+Z18 w1665201134
+Z19 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+Z20 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v
+Z21 L0 148
+Z22 OE;L;6.6d;45
+r1
+31
+Z23 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z24 !s100 42e=NBK[:3cz6_D?aPaR_0
+!s85 0
+vbeh_vlog_ff_clr_v8_4
+Z25 Ih`E;>GUl@7Gc7b93oPhzL2
+Z26 Vo8gckY796Fd^D;W^A6;4Z1
+R7
+R18
+R19
+R20
+Z27 L0 109
+R22
+r1
+31
+R23
+Z28 !s100 k;noFNz8FG`5lRY[2FYOR2
+!s85 0
+vbeh_vlog_ff_pre_v8_4
+Z29 ICmSC2`1X21LGkXeF2Td_;2
+Z30 VeRlS@@CSE0fT>>z=nG>[>2
+R7
+R18
+R19
+R20
+Z31 L0 129
+R22
+r1
+31
+R23
+Z32 !s100 D^zWZgZ[V`j7H17A_7O9j1
+!s85 0
+vbeh_vlog_muxf7_v8_4
+Z33 IdcRHN=Z>kbPZIz@QcKm;W3
+Z34 VIYi0=1AN2b9R87b;RDV_73
+R7
+R18
+R19
+R20
+L0 95
+R22
+r1
+31
+R23
+Z35 !s100 Tnf9<4lW3DQn3IfUBSKC;3
+!s85 0
+vblk_mem_axi_read_wrapper_beh_v8_4
+Z36 I[g3z]Z]:oBbLFGUe_XRLm2
+Z37 VLKHjf9LhYLo^lBETF[2?33
+R7
+R18
+R19
+R20
+Z38 L0 1270
+R22
+r1
+31
+R23
+Z39 !s100 :^TnjZ[m7O:=3jjOFFLY^3
+!s85 0
+vblk_mem_axi_regs_fwd_v8_4
+Z40 Id<9dG1VO5CVR2Md?=>V>f1
+Z41 VmPzHghj_C_f6VW3OBX^G21
+R7
+R18
+R19
+R20
+Z42 L0 1493
+R22
+r1
+31
+R23
+Z43 !s100 >:_VUI^S3H>GD>>V_Z_c`1
+!s85 0
+vblk_mem_axi_write_wrapper_beh_v8_4
+Z44 IBDCQ;egDFD99^A9067a;]1
+Z45 VU_a?WoAlL>`gSL=d=l2991
+R7
+R18
+R19
+R20
+Z46 L0 994
+R22
+r1
+31
+R23
+Z47 !s100 ^z4O@C>L841M;0klQZ;2[1
+!s85 0
+vblk_mem_gen_0
+Z48 I6L`o<m[KgecVlhbCk@WE51
+Z49 VBKj7bCeGOSS;6V<M3FO;K3
+R7
+R18
+Z50 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+Z51 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+L0 56
+R22
+r1
+31
+R23
+Z52 !s100 PLTb944mdUoahU>dMDY<[0
+!s85 0
+vblk_mem_gen_0_bindec
+Z53 IoDUF:[7UOTDXJV:ioVS=n2
+Z54 V<NN@KNCP8ihb@dehNkdYi0
+R7
+R18
+Z55 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v
+Z56 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v
+Z57 L0 199
+R22
+r1
+31
+R23
+Z58 !s100 `1^<EGL<U_ndkzT>DbmbL0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_generic_cstr
+Z59 I34d5hK;>g1c2AmzEfAWTO0
+Z60 VK2eg8S;`04DWW1W;]n>B01
+R7
+R18
+R55
+R56
+Z61 L0 224
+R22
+r1
+31
+R23
+Z62 !s100 zFC1PLdH@SW[U@@4ZiPE<3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_mux
+Z63 IGZc_dz0<Y`2Rf:Eng3Nz>0
+Z64 Vm>Gch0U8E]l16jRe3[8L^3
+R7
+R18
+R55
+R56
+Z65 L0 592
+R22
+r1
+31
+R23
+Z66 !s100 RiYn;hnJY7W6RdfRToEdc0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width
+Z67 I;3PVnEDI9[9UO^9N9I>iW3
+Z68 V]a6ilYbV5:?3Rnd>Ba2801
+R7
+R18
+R55
+R56
+Z69 L0 1380
+R22
+r1
+31
+R23
+Z70 !s100 =`GHbSe24neY@bn?Ie>kh1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized0
+Z71 IbnJe3FT7S:75AMJ;GRmG^2
+Z72 Vj1cK`D49CZ41b`<kDC2>e1
+R7
+R18
+R55
+R56
+Z73 L0 1411
+R22
+r1
+31
+R23
+Z74 !s100 0d_@=BYZKUUm[zPfIQXNi1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized1
+Z75 IdJRfQQoFZZ^D?_SjQNkck1
+Z76 V2JRk29@4mZBn0;K=DbNJc3
+R7
+R18
+R55
+R56
+Z77 L0 1446
+R22
+r1
+31
+R23
+Z78 !s100 lm?`Re[faNk2TJ[6WdF0;2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized10
+Z79 IA<k8ScWEokbJMbe>Go3D33
+Z80 VK63]NOJ6N7jWDaUD>4NKA3
+R7
+R18
+R55
+R56
+Z81 L0 1481
+R22
+r1
+31
+R23
+Z82 !s100 69:90EoO=Ga<X^W_NU@Y:3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized11
+Z83 IANecYHUo3JWVmRUz`gmlf2
+Z84 VmU:lijh^3`POcZ?L6lG?R2
+R7
+R18
+R55
+R56
+Z85 L0 1516
+R22
+r1
+31
+R23
+Z86 !s100 XlXX;dVhZkPR_81:8XJ=j1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized12
+Z87 ICARCjHA>[YA?JjUhT_98]1
+Z88 VI]B0m13DY]0P=3EZcLd?[3
+R7
+R18
+R55
+R56
+Z89 L0 1551
+R22
+r1
+31
+R23
+Z90 !s100 GUg54^g`Bm[QM8EN[n:a72
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized13
+Z91 I@Ffd>oGa?9XH2zHW<P=;J0
+Z92 VFSnJ9jR=RHAA<CB@zjeV70
+R7
+R18
+R55
+R56
+Z93 L0 1586
+R22
+r1
+31
+R23
+Z94 !s100 WNV28837]mKGGkC`<VTZD2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized14
+Z95 IH5Q:Fk`Y0P`RZQRd5hG:J3
+Z96 VCgJ:XYREE0=21WE;F1?jK0
+R7
+R18
+R55
+R56
+Z97 L0 1621
+R22
+r1
+31
+R23
+Z98 !s100 n]gS7MhRm]e4<8VV<8`5V0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized15
+Z99 IgF=JSk8S;65hMkXm92AdI0
+Z100 V`1:mX`2O[KTPUi?dS[AnV1
+R7
+R18
+R55
+R56
+Z101 L0 1656
+R22
+r1
+31
+R23
+Z102 !s100 d7>GY1^dTDA[3oZF]JdC`0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized16
+Z103 I;B=9:IW3YY59]<fXDEM2;0
+Z104 V;KLzYNc<9Ni;8dbi7Dd6I1
+R7
+R18
+R55
+R56
+Z105 L0 1687
+R22
+r1
+31
+R23
+Z106 !s100 1bno9]OdE9@:641aeTeI_2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized17
+Z107 I_W9;HS8>1XdEL@MgPJ?D^3
+Z108 VQ:1ICaYV;6=0hV6XYaaIY1
+R7
+R18
+R55
+R56
+Z109 L0 1718
+R22
+r1
+31
+R23
+Z110 !s100 JJ51D^han;;96XcEATP^U1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized18
+Z111 I`1c_oM^4zF18Kk08TT4fi0
+Z112 V[ii4X[F^@M0Se9cCa4Ud>1
+R7
+R18
+R55
+R56
+Z113 L0 1749
+R22
+r1
+31
+R23
+Z114 !s100 <9=Od1odFLDjG>f]GClo02
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized19
+Z115 I1>4KVLJXhZf<LWR=SkDDa0
+Z116 VLAgmbU:<`4Ja7QQeEBhQB1
+R7
+R18
+R55
+R56
+Z117 L0 1780
+R22
+r1
+31
+R23
+Z118 !s100 ekRLeSQYK2MF`lb_W:^<;0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized2
+Z119 IAZiK1X=>@[7aD:a45JNNG3
+Z120 VIYj>ULMH8^@n@NozPBeHJ2
+R7
+R18
+R55
+R56
+Z121 L0 1811
+R22
+r1
+31
+R23
+Z122 !s100 9iVg>:DjI3IGakldi9nck2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized20
+Z123 ITh5:i>akMk165BkPbHI1f2
+Z124 VDgl0jO8CB@ZFDIDIKCgCO3
+R7
+R18
+R55
+R56
+Z125 L0 1846
+R22
+r1
+31
+R23
+Z126 !s100 B@9J2KVc]on@cFAMHaf3z1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized21
+Z127 IF][]:OdVGm]gIk7aMnWo51
+Z128 VgbS?@_k>Wn=h@L?=XdSMH2
+R7
+R18
+R55
+R56
+Z129 L0 1877
+R22
+r1
+31
+R23
+Z130 !s100 EmD2PZogeId_joPFTeCF03
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized3
+Z131 IA;<S;FOneQ6Y:LS60mLMa1
+Z132 VDgY]omN8ZWf@EFzLR[4HV3
+R7
+R18
+R55
+R56
+Z133 L0 1908
+R22
+r1
+31
+R23
+Z134 !s100 Ll7;<0TTM3kaInAhIMz<k0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized4
+Z135 IzQFMmZEBm7@jJHioP@RMa3
+Z136 VzRG8TV`6zhU@aEH8jPoH[3
+R7
+R18
+R55
+R56
+Z137 L0 1943
+R22
+r1
+31
+R23
+Z138 !s100 BDB2I7F:2FzGPJT]CSY;R1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized5
+Z139 IN14dZOf?kOGc[J4Uh[YBN3
+Z140 VbLgSL9L6A8g6e;E=i;iNS1
+R7
+R18
+R55
+R56
+Z141 L0 1978
+R22
+r1
+31
+R23
+Z142 !s100 dK@ahzQ1H`1iF_WC=z6<93
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized6
+Z143 IRfDIhm=MOn_n36gShU80d2
+Z144 Vljl7UYR>eXD`4JOR16@fm0
+R7
+R18
+R55
+R56
+Z145 L0 2013
+R22
+r1
+31
+R23
+Z146 !s100 ]`HkeomVcSYHS7F<:;Fh13
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized7
+Z147 I;i<T:RPc4Z6VSO7MK=Q6o1
+Z148 VggmjioORKJfbb]LH0^ZRh2
+R7
+R18
+R55
+R56
+Z149 L0 2048
+R22
+r1
+31
+R23
+Z150 !s100 HSc0c46:G30MfhNX@]E_b0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized8
+Z151 IjMdShdcM_DFIb1jS5;cF?1
+Z152 VMLfODSngULo5Gbf^`b?E;3
+R7
+R18
+R55
+R56
+Z153 L0 2083
+R22
+r1
+31
+R23
+Z154 !s100 TSWoBh9XhY`2?Rg;=YE_M3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_width__parameterized9
+Z155 Id4Rg:izigB1ZW?C_k7b_P3
+Z156 VC@;6HLKJh3lNDNgKAI1Km0
+R7
+R18
+R55
+R56
+Z157 L0 2118
+R22
+r1
+31
+R23
+Z158 !s100 V7i[<ao:=_@RPGN=8oQ[]2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init
+Z159 IblO>QPbcOA6K^F2SE7[BP1
+Z160 VKe>WLLZG5g3=V0o4PY8z11
+R7
+R18
+R55
+R56
+Z161 L0 2153
+R22
+r1
+31
+R23
+Z162 !s100 J9@L8c4W`i;5YCA>KW>a;1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized0
+Z163 I7HL>lGibhY1UF]<22b3an2
+Z164 V`7ZAXIbUKT3P_o49G6_4^0
+R7
+R18
+R55
+R56
+Z165 L0 2407
+R22
+r1
+31
+R23
+Z166 !s100 7m1<COcA1W>SMQKXFYm5f0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized1
+Z167 IZb<0AU`Td:>gfJ]NZP:de3
+Z168 V=3EReFPo3oFFAUQYhTaeQ0
+R7
+R18
+R55
+R56
+Z169 L0 2664
+R22
+r1
+31
+R23
+Z170 !s100 d;];]S6o_a6blBCa4P2cV3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized10
+Z171 IVMVUT4Ve;^=odFb`LmF?R2
+Z172 VKam>CW<5QmQWOG2KM;Hmj0
+R7
+R18
+R55
+R56
+Z173 L0 2921
+R22
+r1
+31
+R23
+Z174 !s100 A[gK:<Z8X`Mjn<7Hm_E@50
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized11
+Z175 IdSTbBjJmPKI4`]ISP`QO43
+Z176 VL7^?XkHo_0Vjik`ISX3co2
+R7
+R18
+R55
+R56
+Z177 L0 3178
+R22
+r1
+31
+R23
+Z178 !s100 m`D;8Mg<RM_fT@nm@iBaH0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized12
+Z179 IOmJaYj1o5fjbTgCLZTFTk3
+Z180 VRIleMJEMIIBRcBMo:M:CQ3
+R7
+R18
+R55
+R56
+Z181 L0 3435
+R22
+r1
+31
+R23
+Z182 !s100 ^VL@`cUdId^;VC0YK>FQh0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized13
+Z183 I0WOE;jX_S=GPi3[F=ShS?1
+Z184 VM>I9UU]BVgVcgM06MXC_U3
+R7
+R18
+R55
+R56
+Z185 L0 3692
+R22
+r1
+31
+R23
+Z186 !s100 ]7QNnK9QOg;negiE9]VM^0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized14
+Z187 ID>JM5C6j=[[Hz03j^o19d2
+Z188 VoQh8ekfGJT3gbK]4jH?L[0
+R7
+R18
+R55
+R56
+Z189 L0 3949
+R22
+r1
+31
+R23
+Z190 !s100 6YF_4HW2k5XQA9`OWSUB@3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized15
+Z191 I]REGz?QAM=o^Y_eD:=J?z3
+Z192 VfHdgUa;AH2A=ajGNc1@AJ2
+R7
+R18
+R55
+R56
+Z193 L0 4104
+R22
+r1
+31
+R23
+Z194 !s100 SoFBaNNhGdL?Kn6cUmG8]2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized16
+Z195 Id6TVY>JF]a_NohQFI^>j;2
+Z196 Vk6fLiRNWD>81Z>B7g`@1d1
+R7
+R18
+R55
+R56
+Z197 L0 4568
+R22
+r1
+31
+R23
+Z198 !s100 cd=KG3czROX64?=?Hijam2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized17
+Z199 IWQ6_g80[MKi;YzJKKN:I52
+Z200 VQDHTbgfM``]aD0fF:61Go3
+R7
+R18
+R55
+R56
+Z201 L0 5032
+R22
+r1
+31
+R23
+Z202 !s100 URC8UB^=V5A<7VhE==2Rk3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized18
+Z203 ImN4W2kAjHYo@R54PGlZJI0
+Z204 Vl7cO^;;9X7^DKAGZhdi]22
+R7
+R18
+R55
+R56
+Z205 L0 5496
+R22
+r1
+31
+R23
+Z206 !s100 D6MUlTmkSJ]7_kZAc`6OX0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized19
+Z207 IUTVoo2YBGUKPk]Ya7k[Y91
+Z208 VFCGJPPRllk45gLgLNKE0<1
+R7
+R18
+R55
+R56
+Z209 L0 5960
+R22
+r1
+31
+R23
+Z210 !s100 N>GcdD^Bcf7@6N;Z^ogFb1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized2
+Z211 InL]f9o<ZGgWa6GIP:0Ro;0
+Z212 VA514UolEz;8?jYD]X>hdd3
+R7
+R18
+R55
+R56
+Z213 L0 6424
+R22
+r1
+31
+R23
+Z214 !s100 Mmo`g]GcQ;KELCU4I^oQX3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized20
+Z215 Ij8KUD?GaZJTBUUk>BRM0Z2
+Z216 VIQ[R8[nJ2eGWL>k]2P8KY3
+R7
+R18
+R55
+R56
+Z217 L0 6681
+R22
+r1
+31
+R23
+Z218 !s100 zCBORK5cKKi3RgVWh9_F_2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized21
+Z219 Ie8`0G6z8K91;JK`Nd<CK?2
+Z220 VRXaoFmdNhcLQH2MODVSk71
+R7
+R18
+R55
+R56
+Z221 L0 7145
+R22
+r1
+31
+R23
+Z222 !s100 8gX3=LPVQYgohE]XnWg=k0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized3
+Z223 INU^U:FH=Q=5l_Nl5QfQ8z0
+Z224 VRmzbaU4>Ib^FmjI`SCb[@3
+R7
+R18
+R55
+R56
+Z225 L0 7609
+R22
+r1
+31
+R23
+Z226 !s100 F0M9NE7aU`aBiP0:iaVXa0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized4
+Z227 IRU8bb;Y0oaMGnZHe8^YaN1
+Z228 VA7kV3PdKh4CV;YRZb=X<<3
+R7
+R18
+R55
+R56
+Z229 L0 7866
+R22
+r1
+31
+R23
+Z230 !s100 O_?Z5KKl]6@ak8YMbzffc2
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized5
+Z231 IfmOa;a@9^VC1CNfnmg[Y?3
+Z232 V7kA`3A_J>5Z_5KU>=HmHK1
+R7
+R18
+R55
+R56
+Z233 L0 8123
+R22
+r1
+31
+R23
+Z234 !s100 hOCd]@6m4d=G_=HN33WOa0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized6
+Z235 Inmbn1OgbdGY:g?lm62]jW3
+Z236 VSIADOTBRfj?9dHo:h=K>i3
+R7
+R18
+R55
+R56
+Z237 L0 8380
+R22
+r1
+31
+R23
+Z238 !s100 e3>aUY1KII4H1]M^]I>G53
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized7
+Z239 IicDFC[nGz?iZb5Mk;lK3J2
+Z240 V]dNBgWQFWMK3]f@77XKXN0
+R7
+R18
+R55
+R56
+Z241 L0 8637
+R22
+r1
+31
+R23
+Z242 !s100 kD@06T1m>9hE?LNGBi=j50
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized8
+Z243 I8lcNXhVbZH8>6@=5FKN;;2
+Z244 VCA`BMSESz?D[Od1EPgIm53
+R7
+R18
+R55
+R56
+Z245 L0 8894
+R22
+r1
+31
+R23
+Z246 !s100 lOAM:1KR>_BeCA@?L;Ll91
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_prim_wrapper_init__parameterized9
+Z247 I:_W@be1@OgBj6d7Q@aa3@1
+Z248 Vc_N7]6BNVnUjfPSS^5z2=2
+R7
+R18
+R55
+R56
+Z249 L0 9151
+R22
+r1
+31
+R23
+Z250 !s100 ^bcgVBf2O2M<jN=:BSgmF0
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_top
+Z251 Ia>O4;I<0GLViQZ:SF0RUe3
+Z252 VH>k^oEPRb>=zWo4nNo2G12
+R7
+R18
+R55
+R56
+Z253 L0 9408
+R22
+r1
+31
+R23
+Z254 !s100 TO4gf18P3k81j;:9ojY6A3
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_v8_4_1
+Z255 I8[44NP]_5IAH6fJSKA8Ye0
+Z256 VEY[HVG0i@hTJd;eRl5TDc3
+R7
+R18
+R55
+R56
+Z257 L0 9463
+R22
+r1
+31
+R23
+Z258 !s100 :bA^H;bo1dNA>RTTUmCec1
+!s85 0
+vblk_mem_gen_0_blk_mem_gen_v8_4_1_synth
+Z259 IbU4m8Gk3b]JAb8bj`1HgT2
+Z260 VU>jXTVHKJ?k?0ioElH7=c0
+R7
+R18
+R55
+R56
+Z261 L0 9699
+R22
+r1
+31
+R23
+Z262 !s100 9jM_Ni@8>5He:C2Eb5Xf90
+!s85 0
+vblk_mem_gen_1
+Z263 IOcnA1]?1`lfkj>Nf;QWK<2
+Z264 VOSanhgWlV0;dQV`HXUa_22
+R7
+R18
+Z265 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v
+Z266 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v
+L0 56
+R22
+r1
+31
+R23
+Z267 !s100 RC1oI4]D[ETDO:^GINJLO2
+!s85 0
+vblk_mem_gen_1_bindec
+Z268 IZN23cBTT_Y2_LCeLPEXi93
+Z269 VS:@8HS68N_LFzVdf?8;8F2
+R7
+R18
+Z270 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_sim_netlist.v
+Z271 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_sim_netlist.v
+R57
+R22
+r1
+31
+R23
+Z272 !s100 9]DKg2IeTf^eX8oYRmAIM0
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_generic_cstr
+Z273 IjAOS:^6PQ>jlKPZo[FYUG1
+Z274 VTbcEU6M]k3=IRFQm63?o_1
+R7
+R18
+R270
+R271
+Z275 L0 226
+R22
+r1
+31
+R23
+Z276 !s100 Q6MTJ>=z1be6SaSUS^n>d3
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_mux
+Z277 IA8Cao^`bI8?9Ld3FJcSA:1
+Z278 VIaEIKc;GU<gDM01hIYNga3
+R7
+R18
+R270
+R271
+Z279 L0 294
+R22
+r1
+31
+R23
+Z280 !s100 P3mmMDKi86[HWWKN4dT>J2
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_width
+Z281 IM]o;Z3C81j8FlnW7jei8o3
+Z282 V2?M[mH>im[3iS=B2Fl`cW2
+R7
+R18
+R270
+R271
+Z283 L0 479
+R22
+r1
+31
+R23
+Z284 !s100 <gje;OUD4@d:R0j1@c^9O3
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_width__parameterized0
+Z285 IjnOWTofMhYNfMoP]GA3JP2
+Z286 VD9ZZiG3QYL;WNdmzmc@^A3
+R7
+R18
+R270
+R271
+Z287 L0 514
+R22
+r1
+31
+R23
+Z288 !s100 ]C;`_@hb8KFH`6ilGGoEA1
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_width__parameterized1
+Z289 I7Wi6ic24lT:ll5>6hi0ll0
+Z290 Vk=54?EH9YOgL]Oo;lV@oQ1
+R7
+R18
+R270
+R271
+Z291 L0 549
+R22
+r1
+31
+R23
+Z292 !s100 db39XjZ03[3AIFYiVQicM3
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_width__parameterized2
+Z293 I]Xe6ALzY51oHz_Gl>=6Ah3
+Z294 VAjm>aIC^231Kh<?lj6Dah1
+R7
+R18
+R270
+R271
+Z295 L0 584
+R22
+r1
+31
+R23
+Z296 !s100 INWd[XTNG<MI5b6KD`5lO3
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_wrapper
+Z297 IS^6XK^?0=TRl5fFh3ai_l1
+Z298 Vd[fEi>il=]UI[30zSU;cc3
+R7
+R18
+R270
+R271
+Z299 L0 619
+R22
+r1
+31
+R23
+Z300 !s100 HOzfE22_n;506G`1GXa>Q0
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_wrapper__parameterized0
+Z301 I=;:Ofg@iNEdz2<h5RXj_z2
+Z302 Ve_zPmz<Y=M[jTg89kdcTS3
+R7
+R18
+R270
+R271
+Z303 L0 866
+R22
+r1
+31
+R23
+Z304 !s100 zY;3MF4TC3fKgiUiOKo[C1
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_wrapper__parameterized1
+Z305 IL9KY<8SBkk7i0mn6TjjaY1
+Z306 VmL7ga5a=Y14?dj:MMUk8?1
+R7
+R18
+R270
+R271
+Z307 L0 1113
+R22
+r1
+31
+R23
+Z308 !s100 ZIdT1]Y4]`_P>6cNn=zUn1
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_prim_wrapper__parameterized2
+Z309 ICW5;Y3RgSMh:F1<kAZSzD1
+Z310 V5=zfP:BaC83GJi9f<IgnX1
+R7
+R18
+R270
+R271
+Z311 L0 1362
+R22
+r1
+31
+R23
+Z312 !s100 5Q[>Y`h<NoIX8@iDR66<k0
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_top
+Z313 Iek:nPWiB76:e>^V3o@K[11
+Z314 VdoCSdHES^e3[Sf^PU0Al21
+R7
+R18
+R270
+R271
+Z315 L0 1611
+R22
+r1
+31
+R23
+Z316 !s100 boF[Zd6JX_fKZGh<DCO3F2
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_v8_4_1
+Z317 I0R5;_l4Ak9?D:UzzUbo5:0
+Z318 VYXC^LY]f80<P0nY_G5PNP3
+R7
+R18
+R270
+R271
+Z319 L0 1666
+R22
+r1
+31
+R23
+Z320 !s100 Sf`JVX9U1KGQZ5;FD=I4R2
+!s85 0
+vblk_mem_gen_1_blk_mem_gen_v8_4_1_synth
+Z321 Ih2l>NOb3>SQ`FAeo@921b3
+Z322 Vk?9BZbZgUGn2AAaPL2hXa0
+R7
+R18
+R270
+R271
+Z323 L0 1896
+R22
+r1
+31
+R23
+Z324 !s100 ]4MV0NLLo8[z<BUYJD>BA0
+!s85 0
+vblk_mem_gen_2
+Z325 IWeLmBHjWDZ5YfjfP@;VY<2
+Z326 VKMzLS7R67S=[o;KFZzLd;2
+R7
+R18
+Z327 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v
+Z328 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v
+L0 56
+R22
+r1
+31
+R23
+Z329 !s100 3l6?g1iYWKcgWj<27hC3@3
+!s85 0
+vblk_mem_gen_2_bindec
+Z330 I_9g;F?d?:3o8`IO1o74A63
+Z331 Vg82mK]U;mnbR>]SHS9VPf2
+R7
+R18
+Z332 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2_sim_netlist.v
+Z333 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2_sim_netlist.v
+R57
+R22
+r1
+31
+R23
+Z334 !s100 RF@e6Qi0D?6YR1jTnKL^D2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_generic_cstr
+Z335 I_]LQ@RKYTij`939@4_J5U2
+Z336 VSdVAaiDVnYQMm9F_S=CLm3
+R7
+R18
+R332
+R333
+Z337 L0 254
+R22
+r1
+31
+R23
+Z338 !s100 A2cgiLaY8TANd9;oiik[X0
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_mux
+Z339 IQLCB]zLokUQ?;?8ROL7kR0
+Z340 VkUh:FZLLW?]Ok9FZWK1D92
+R7
+R18
+R332
+R333
+Z341 L0 370
+R22
+r1
+31
+R23
+Z342 !s100 MA6n40B=dA6n0nZeO]Q`L0
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width
+Z343 ISgnCSEel1n1dW]SEgYb9z0
+Z344 V6H3[OH[?RR;S0@iaMId9b3
+R7
+R18
+R332
+R333
+Z345 L0 825
+R22
+r1
+31
+R23
+Z346 !s100 DLoVJhaCfVH::^:@a_iHV1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized0
+Z347 I_e;UHDUlNnNieGIBSZA^63
+Z348 Vh6l^abRB60lAY>?P:`iGQ3
+R7
+R18
+R332
+R333
+Z349 L0 860
+R22
+r1
+31
+R23
+Z350 !s100 6<2Bd9KLWC19U2<GQTQkZ1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized1
+Z351 I@<RZM92SB^W3bmnlNeR@U1
+Z352 V[70NQ53^GgRb2aon6c7MW3
+R7
+R18
+R332
+R333
+Z353 L0 895
+R22
+r1
+31
+R23
+Z354 !s100 3jdcEaSa6JDz9<]K7`@AV0
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized2
+Z355 IA[BkG0?hM[eTRQSf`bW5d2
+Z356 VP@4Ee]69X0I<k;]O3dn9?2
+R7
+R18
+R332
+R333
+Z357 L0 930
+R22
+r1
+31
+R23
+Z358 !s100 >nXa[]U[DEBH@SGAMfgMk2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized3
+Z359 I0]LRLJ>8[`E2P[AD=]=2U1
+Z360 Va?Mj2g`Z_?9_[h@lWj02?1
+R7
+R18
+R332
+R333
+Z361 L0 965
+R22
+r1
+31
+R23
+Z362 !s100 W`?ZR4fA3Eb:@eVf>N:OA1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized4
+Z363 I;lcUKz@2HT8VLVMP[E6<Z1
+Z364 VS2Uak<P3?C5SH<a[D`2fE0
+R7
+R18
+R332
+R333
+Z365 L0 1000
+R22
+r1
+31
+R23
+Z366 !s100 AG0B6^OIzU>XO[X5@=XhA0
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized5
+Z367 I^Ie@Hzg?d?WD0TNkIKaiE1
+Z368 V6fV^Yng51QJPLmci8<TMU1
+R7
+R18
+R332
+R333
+Z369 L0 1035
+R22
+r1
+31
+R23
+Z370 !s100 IhY_X8c7>4d=Z33o>>bD;1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized6
+Z371 IFXl4K_BclO<<Q^;7ThM=62
+Z372 VIRN71E5mIn5O^_>IhKDEL1
+R7
+R18
+R332
+R333
+Z373 L0 1070
+R22
+r1
+31
+R23
+Z374 !s100 EWD`DRG`Die_[zVXE:Cl]2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized7
+Z375 I`OP3@C4<gfgY^0d>dOB?Y2
+Z376 VkaNRiHEnXVo0^87SP?jZz2
+R7
+R18
+R332
+R333
+Z377 L0 1105
+R22
+r1
+31
+R23
+Z378 !s100 zC:3^Fj=EjTV;=5g<j^iP3
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_width__parameterized8
+Z379 IGmFbRRU[ag=mk_lZlG@;C0
+Z380 VEPn^W;?A92J@[NKc3HGca2
+R7
+R18
+R332
+R333
+Z381 L0 1140
+R22
+r1
+31
+R23
+Z382 !s100 <UUNM_oQbIkDFSY[0;FRZ2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init
+Z383 IK1k4K_FXGGm7ml0f]]A1m1
+Z384 VoA2zT^gZYJ9[6IB7zUdi12
+R7
+R18
+R332
+R333
+Z385 L0 1175
+R22
+r1
+31
+R23
+Z386 !s100 dZ5hYn_M;Xd:_aB1S@=0=3
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized0
+Z387 IKkk8dIz<^>zlF8]J`K4_10
+Z388 V]8L_<>65fML?TL9zTbkGI2
+R7
+R18
+R332
+R333
+Z389 L0 1422
+R22
+r1
+31
+R23
+Z390 !s100 ok1O=LD;Y?2A=CPZWR;D60
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized1
+Z391 IhTO3gYg;kkX5bI]ncCBZ72
+Z392 V6>Tn;WSA@h<NM0CK>QUOb1
+R7
+R18
+R332
+R333
+Z393 L0 1669
+R22
+r1
+31
+R23
+Z394 !s100 oZh3S6dc4TnNZNgZH<L9]2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized2
+Z395 IGf=cR<eX:i:cj5lP_AgoG2
+Z396 VWXRWU0I?I`o:jN76Wa:`f0
+R7
+R18
+R332
+R333
+Z397 L0 1916
+R22
+r1
+31
+R23
+Z398 !s100 a?Jk2=MTc[>Z7QEfOAlg72
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized3
+Z399 IoSF6E==`S?TdNNNCKPiL]2
+Z400 V<^B`0>AUH;K5kk7O1i@Jz0
+R7
+R18
+R332
+R333
+Z401 L0 2163
+R22
+r1
+31
+R23
+Z402 !s100 jChAW^;<IoZnS<TC@kzNT1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized4
+Z403 Ik2TANZ@GOJJIPEm0ZL`ie1
+Z404 Vc]dLi6m:J`K]o5kTkaUDR0
+R7
+R18
+R332
+R333
+Z405 L0 2410
+R22
+r1
+31
+R23
+Z406 !s100 ei7SCbZUl2Mz7UX>AYoR>3
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized5
+Z407 I9z?V9gbe0[]GRom2OP3E`0
+Z408 VLd=3DUje4@LbMZc8Zh96V1
+R7
+R18
+R332
+R333
+Z409 L0 2659
+R22
+r1
+31
+R23
+Z410 !s100 H^2U3h@A[hNKz6znKz?IW2
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized6
+Z411 I=Z@[90J;b_hBHb[aegjQ^1
+Z412 VzlaT0G=bBmA8`SzNW5D^R1
+R7
+R18
+R332
+R333
+Z413 L0 2908
+R22
+r1
+31
+R23
+Z414 !s100 3FEn:19_SMK[9fY7J[URX1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized7
+Z415 Igo:Vd[]:gTP=_m5hH?KYi1
+Z416 V?D0]GP^i;5[Y[VXn<a^U;3
+R7
+R18
+R332
+R333
+Z417 L0 3157
+R22
+r1
+31
+R23
+Z418 !s100 d@FXBNd6Y48oE;gJK1]NS1
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_prim_wrapper_init__parameterized8
+Z419 IeOVTPS6X8:M_bQfdMcKa]0
+Z420 Vl?@MA3ND<K7ml5]GibYDZ0
+R7
+R18
+R332
+R333
+Z421 L0 3406
+R22
+r1
+31
+R23
+Z422 !s100 [5TK9FYC@nA_Fg]H1MR651
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_top
+Z423 IN]PeUjX8:M59[mhDT>K6@1
+Z424 VmUbj:Q@J=^nb5?7UYH<Ai3
+R7
+R18
+R332
+R333
+Z425 L0 3655
+R22
+r1
+31
+R23
+Z426 !s100 _M2<]d>_H2gmO4hkjbVj;0
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_v8_4_1
+Z427 IaM4K^TX_0JXOUWHPbI:553
+Z428 VJX_Ybh1WI>fh8z@aSSmd13
+R7
+R18
+R332
+R333
+Z429 L0 3710
+R22
+r1
+31
+R23
+Z430 !s100 l;1]CcPVz`R^lF3``Dm812
+!s85 0
+vblk_mem_gen_2_blk_mem_gen_v8_4_1_synth
+Z431 IZjaXFG73o=HioVO6;ebYo1
+Z432 VaA`=oD>gZIiINcV?[E3e:2
+R7
+R18
+R332
+R333
+Z433 L0 3944
+R22
+r1
+31
+R23
+Z434 !s100 RT@okEZCHkjEY_ec7iFN=2
+!s85 0
+Eblk_mem_gen_v8_4_1
+R18
+Z435 DPx22 C:\modeltech_6.6d\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z436 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/misc/blk_mem_gen_v8_4.vhd
+Z437 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.srcs/sources_1/ip/blk_mem_gen_0/misc/blk_mem_gen_v8_4.vhd
+l0
+L4
+Z438 VR_9=VzfF_dNGDIMlSE5H72
+Z439 OE;C;6.6d;45
+Z440 o-work work
+Z441 tExplicit 1
+Z442 !s100 K?31fDAieR0m=O87gO0L30
+Axilinx
+32
+R435
+DEx99 C:\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_verilog\layers\work 18 blk_mem_gen_v8_4_1 0 22 R_9=VzfF_dNGDIMlSE5H72
+Mx1 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+l148
+L147
+Z443 VX3bo;H^NVU[BZUL8jaREB3
+R439
+R440
+R441
+Z444 !s100 23h5OOl7acbOkXVkSdP2_0
+vblk_mem_gen_v8_4_1_mem_module
+Z445 IKH5FWIh1gImE8MkQN8zBA3
+Z446 Vi^BCac^<OBRHl1YC81ONz1
+R7
+R18
+R19
+R20
+Z447 L0 1951
+R22
+r1
+31
+R23
+Z448 !s100 MMBeN@U?I<bT9XhZM96@J1
+!s85 0
+vblk_mem_gen_v8_4_1_output_stage
+Z449 IL<0`]CR0M23<^T05Gi^ON3
+Z450 VbjhjBmZ20kBf@G1WkcaT]1
+R7
+R18
+R19
+R20
+Z451 L0 1563
+R22
+r1
+31
+R23
+Z452 !s100 0ehWD9Mj2]FmckW_hRdmb3
+!s85 0
+vblk_mem_gen_v8_4_1_softecc_output_reg_stage
+Z453 IQPVcJ:9iB7mV3Q:HUllF93
+Z454 Vc5DUoJHSANHAO=d@?BmVB1
+R7
+R18
+R19
+R20
+Z455 L0 1859
+R22
+r1
+31
+R23
+Z456 !s100 KMPdL<W9eLj7L_dV`A0o[0
+!s85 0
+vconv_1
+Z457 IQB?ASM0f4;VS?o[g3jg3A3
+Z458 VO4QH9JS<FMLz[bV4MWO=U0
+R7
+R18
+Z459 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v
+Z460 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v
+L0 11
+R22
+r1
+31
+R23
+Z461 !s100 z0R^85zgP_e<3A=0oMhN<1
+!s85 0
+vconv_2
+Z462 IiBhYOn=44kE9JRl8LB14d2
+Z463 V`agEl?YGFjFV490TzQkb00
+R7
+R18
+Z464 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v
+Z465 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v
+L0 29
+R22
+r1
+31
+R23
+Z466 !s100 >U8AUU55OW:KZ[5@2@jMT3
+!s85 0
+vconv_3
+Z467 IDOa[K@?<2g9KRE:NToblX2
+Z468 V30Xo4ZZN1LU^jHOH`X1U63
+R7
+R18
+Z469 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v
+Z470 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v
+L0 29
+R22
+r1
+31
+R23
+Z471 !s100 @mOZdHWh[IXKeh^@Wkng;1
+!s85 0
+Edecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix
+R18
+Z472 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z473 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/ba029d91ccb29374/blk_mem_gen_0_stub.vhdl
+Z474 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/ba029d91ccb29374/blk_mem_gen_0_stub.vhdl
+l0
+L15
+Z475 VX[H?@az7=:h[_G_>@b[Wh0
+R439
+32
+R440
+R441
+Z476 !s100 lL<P2E@>`[];mII4D@BL`0
+Astub
+R472
+Z477 DEx4 work 41 decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix 0 22 X[H?@az7=:h[_G_>@b[Wh0
+l34
+L27
+Z478 V<7^mz_V[Q@Dmoe;RB0R<M1
+R439
+32
+Z479 Mx1 4 ieee 14 std_logic_1164
+R440
+R441
+Z480 !s100 09A:h72C8<V?::G>ZeTCg0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_bindec
+Z481 IHfi6RDMjN7OHz;XFgQ`8B3
+Z482 Vo]OoLMA;X6Md79a1NY4h?3
+R7
+R18
+Z483 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/ba029d91ccb29374/blk_mem_gen_0_sim_netlist.v
+Z484 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/ba029d91ccb29374/blk_mem_gen_0_sim_netlist.v
+Z485 L0 198
+R22
+r1
+31
+R23
+Z486 !s100 NYMlf]bB`Zkf<gPMc8jHe3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_generic_cstr
+Z487 I4U[NoM4kSd2BjPl7VTJIS3
+Z488 V;5D602]7LRRO8nXN;HfIP0
+R7
+R18
+R483
+R484
+Z489 L0 222
+R22
+r1
+31
+R23
+Z490 !s100 =6dKIb`>FKG_2<z?8N^_F1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_mux
+Z491 Iih4];zS3:YbAIM>X9j_Vj1
+Z492 V:Th63ISE4?cUG3PTZ@?HT1
+R7
+R18
+R483
+R484
+Z493 L0 589
+R22
+r1
+31
+R23
+Z494 !s100 ;OEU0gf4F?lG04oP6mRCi0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width
+Z495 I@?F[XaMY@J^T5U]YHQZ`h2
+Z496 VNW;:dB8^F6`SkB;^nBalJ1
+R7
+R18
+R483
+R484
+Z497 L0 1376
+R22
+r1
+31
+R23
+Z498 !s100 `kiU24eGIU_1ekQj4JFG[0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized0
+Z499 ICDc`@a:jGVI0@NNJ;z;fL1
+Z500 V`L<]HKKIDmcmzF=8>hLIa0
+R7
+R18
+R483
+R484
+Z501 L0 1407
+R22
+r1
+31
+R23
+Z502 !s100 72j[KH8<fFTdhm1No3U4E1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized1
+Z503 Id413CXd[1R;DJ]e<M[lLR2
+Z504 VB^0E;jTEjNcX]`4^^HDUh1
+R7
+R18
+R483
+R484
+Z505 L0 1442
+R22
+r1
+31
+R23
+Z506 !s100 BEFU`;eE0JG?8el]kNI7b0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized10
+Z507 IZCcj?1jVi`Y4Y95[3aBg20
+Z508 VjcJOkf1K89KN8T_l39DZ82
+R7
+R18
+R483
+R484
+Z509 L0 1477
+R22
+r1
+31
+R23
+Z510 !s100 JEnAAYT;e:XPAO?g8HJi`2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized11
+Z511 Ifc7FbeQ?Lc3O=PezS]F=H1
+Z512 VbC3L^f_7MA<<f[HIzU7Za1
+R7
+R18
+R483
+R484
+Z513 L0 1512
+R22
+r1
+31
+R23
+Z514 !s100 MQe6Qb8F1DYeg45`aJNzH1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized12
+Z515 INMTnE7eIQNId9?gEAZV>K0
+Z516 VEFz_i@6bHD8YTc6fGlSi;3
+R7
+R18
+R483
+R484
+Z517 L0 1547
+R22
+r1
+31
+R23
+Z518 !s100 V::]GTQQhj6H1AO3N9^mz3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized13
+Z519 ISFZ36f>TD:1[00aWQccP42
+Z520 Vk5JX]36A?ln>j_fX6U]j73
+R7
+R18
+R483
+R484
+Z521 L0 1582
+R22
+r1
+31
+R23
+Z522 !s100 mWUMCHJoa;j@EDLPHjI[L2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized14
+Z523 IHB<PWLC9iRkV2S5O7Nk6M2
+Z524 V;_5<?=bhfEaMQ@DDm^<;L0
+R7
+R18
+R483
+R484
+Z525 L0 1617
+R22
+r1
+31
+R23
+Z526 !s100 gn?__@6gbX]WlIVI66WKK2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized15
+Z527 I3QEW2EAmb?Fkj9OoF`I1@1
+Z528 Ve=NHYaeDkhAah84CVMSjY3
+R7
+R18
+R483
+R484
+Z529 L0 1652
+R22
+r1
+31
+R23
+Z530 !s100 J;^S<P==J21R1A[UMekY^1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized16
+Z531 IQM@h:9EVTXYP^ITZk7?mo0
+Z532 VQm4QaNVP2^gje[^KaoQAM2
+R7
+R18
+R483
+R484
+Z533 L0 1683
+R22
+r1
+31
+R23
+Z534 !s100 2GWfXX`;T2FQ1R3IOJL:M2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized17
+Z535 Io0_ET6nO0lKP?S09]o8DZ0
+Z536 V5<]aLD@mC[>^5dI1zMAMo2
+R7
+R18
+R483
+R484
+Z537 L0 1714
+R22
+r1
+31
+R23
+Z538 !s100 7?zSD>C4:PYAi[`mlcV_Q2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized18
+Z539 I>kSS;^m?8b348m26g85P;3
+Z540 VR<01U]N6k6RE4Sb^gi]XD3
+R7
+R18
+R483
+R484
+Z541 L0 1745
+R22
+r1
+31
+R23
+Z542 !s100 Jlz99zz0;kh]WE6jB37S11
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized19
+Z543 IOhGKFTfRF`2c]TW[:?Q5C1
+Z544 VXYcaCTHeQ_9m>kV`W>;jz1
+R7
+R18
+R483
+R484
+Z545 L0 1776
+R22
+r1
+31
+R23
+Z546 !s100 nQK>TVLBE1Qf?9K]l9:oC2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized2
+Z547 IWB>iJH_G3P:?QKCoNeASG1
+Z548 V;T?L9Ggdaa03@_oz`a4z=0
+R7
+R18
+R483
+R484
+Z549 L0 1807
+R22
+r1
+31
+R23
+Z550 !s100 fBYYf4nNj8W;5[BZ1NE=X2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized20
+Z551 I?d33_cnoY>kcm?dPHB^kc1
+Z552 V?k[[?zBfA_6^d>Dc[6lSD2
+R7
+R18
+R483
+R484
+Z553 L0 1842
+R22
+r1
+31
+R23
+Z554 !s100 nflM5PdRQcB@?@nB8_Hiz3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized21
+Z555 Ifan03J4?o2L=]3NVkR5;O1
+Z556 VJOH5<b`J3PizY`[aJA9WX3
+R7
+R18
+R483
+R484
+Z557 L0 1873
+R22
+r1
+31
+R23
+Z558 !s100 ?<?kMSe_IfJo2?^e?DS5W0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized3
+Z559 I2bWJ]<JF1WbdBkG`2e1Vf2
+Z560 VlX]FL=OSRIIYoX16@:f]]1
+R7
+R18
+R483
+R484
+Z561 L0 1904
+R22
+r1
+31
+R23
+Z562 !s100 kBFiNjOF;[C;L2C_koC^_3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized4
+Z563 InTP?dMMN:<``A67Dbg7Lo0
+Z564 V_ACm12G06C]^Q<QTm@1PK0
+R7
+R18
+R483
+R484
+Z565 L0 1939
+R22
+r1
+31
+R23
+Z566 !s100 ;CkFj=3APS;ehnYkmoASV0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized5
+Z567 II[=9@5WL:A:6`[fl@ihT[0
+Z568 VfSXR`7U`AoL:ngaV`9S`U3
+R7
+R18
+R483
+R484
+Z569 L0 1974
+R22
+r1
+31
+R23
+Z570 !s100 h:KLIKVnP1HWfN>Gea;I03
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized6
+Z571 IMLbfcFNQ[>;dh:Vgd:P5C3
+Z572 VM4UdFEG`n:a4c:Cb_Bh9o2
+R7
+R18
+R483
+R484
+Z573 L0 2009
+R22
+r1
+31
+R23
+Z574 !s100 MRLfcOHLoCSLCfEm^WO=C0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized7
+Z575 IS<@16D_JdI[nf>77Cc0j20
+Z576 Va0ehW?zOaiiS6AI]0Vm7@1
+R7
+R18
+R483
+R484
+Z577 L0 2044
+R22
+r1
+31
+R23
+Z578 !s100 @_BlBd@`4IY?PfbZo6P4a3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized8
+Z579 IVmiBLkHRS9?0YQ6O=Kh3>0
+Z580 VjG`Bh=QOXM=X3>RGSR7JT0
+R7
+R18
+R483
+R484
+Z581 L0 2079
+R22
+r1
+31
+R23
+Z582 !s100 QAD1[BY[eHO5]MXUYkE6a1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_width__parameterized9
+Z583 I=dd7A3[A5L8_eRSGEWQ6:2
+Z584 VWX59Y8jN_F0ebloOOogl72
+R7
+R18
+R483
+R484
+Z585 L0 2114
+R22
+r1
+31
+R23
+Z586 !s100 3A;bFHb5LBgX7DlfGJdYD2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper
+Z587 IP=>m?CH;jf]VDnmV2e_[:1
+Z588 VkeY:5jzhS5SnWWEDLEiTZ0
+R7
+R18
+Z589 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/40aeeacec8fe3d8b/blk_mem_gen_1_sim_netlist.v
+Z590 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.cache/ip/2018.2/40aeeacec8fe3d8b/blk_mem_gen_1_sim_netlist.v
+Z591 L0 614
+R22
+r1
+31
+R23
+Z592 !s100 58FT<2e6=i=VN^<OFO67e3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper__parameterized0
+Z593 IT5@S55`S`fE6XB5JY`Y8Z3
+Z594 VeHR0dSfRkdz]9U:cni8EV3
+R7
+R18
+R589
+R590
+Z595 L0 861
+R22
+r1
+31
+R23
+Z596 !s100 @F1nI7m18H[VGKXXh?L0a2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper__parameterized1
+Z597 IFb3UXKiiaZZ0UNgcWzS7`3
+Z598 V3>6L1JbG_=:_5aSm4Y?^H3
+R7
+R18
+R589
+R590
+Z599 L0 1108
+R22
+r1
+31
+R23
+Z600 !s100 5fj;zP]f4kPl]17B9ZH`l3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper__parameterized2
+Z601 I6X:YCY5Wd8GMWLFd8zkB72
+Z602 VQIhha7QV4aFZ:`M=QE[j?0
+R7
+R18
+R589
+R590
+Z603 L0 1357
+R22
+r1
+31
+R23
+Z604 !s100 7VHBBYR>cAWCjc=z=TL<J0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init
+Z605 I?obJBdUdJ[o[3hCIggSTO1
+Z606 V2JN?>`PC@k0?LY]J[SnWa2
+R7
+R18
+R483
+R484
+Z607 L0 2148
+R22
+r1
+31
+R23
+Z608 !s100 F_i3Qen;Vo5zP<bV[P^WH3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized0
+Z609 I?cZc^ioB<K1FTzEgJbl]j0
+Z610 VU4`][U>WcOE_4428JRda:3
+R7
+R18
+R483
+R484
+Z611 L0 2402
+R22
+r1
+31
+R23
+Z612 !s100 ILKkX4HQ][4=gXIgk?4172
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized1
+Z613 Ijf:KBSBMX7^k[H;K7G6kP1
+Z614 VK@;;6VziCfoPDYkImZ77Q0
+R7
+R18
+R483
+R484
+R409
+R22
+r1
+31
+R23
+Z615 !s100 XaTlR`bl1ojd6R>S2QJVc0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized10
+Z616 In;b58l4VWE751Mid1GYE?2
+Z617 V[SY>Ujmd7a>RmB6@WTj?Q1
+R7
+R18
+R483
+R484
+Z618 L0 2916
+R22
+r1
+31
+R23
+Z619 !s100 K?:M8B2io@gNjXfi3iHaY2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized11
+Z620 ID^@j5Q3V4k[e@HR`jShCY3
+Z621 V9?SZIJ9jmNjb<3W;BUm?I2
+R7
+R18
+R483
+R484
+Z622 L0 3173
+R22
+r1
+31
+R23
+Z623 !s100 ;]gNcn?8lRNl5>0SdROKN3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized12
+Z624 INm8T5k8WS_nLKN;=n`ieX1
+Z625 VDifOiSH01acW>;^6VV_>@3
+R7
+R18
+R483
+R484
+Z626 L0 3430
+R22
+r1
+31
+R23
+Z627 !s100 9W?@edabdOU3Q@55iS>[h1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized13
+Z628 Icd_<_bEG1^f3M4L_]mQo`0
+Z629 V=?kd:GOGYlhQzmUOV<NIF0
+R7
+R18
+R483
+R484
+Z630 L0 3687
+R22
+r1
+31
+R23
+Z631 !s100 U1gV2aeVa_0Ha8XflW`kP3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized14
+Z632 IaOg_I>XW30[7;mA9ZnXzO1
+Z633 VR5go0SS@nfUROJR1]_hI[0
+R7
+R18
+R483
+R484
+R433
+R22
+r1
+31
+R23
+Z634 !s100 6C>Cko`?l^S1a?AJ=eQA?2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized15
+Z635 IT0GoB;02jVDH40Xl5hAcC3
+Z636 VQQ700S6Un?=lz4@g[Dib=0
+R7
+R18
+R483
+R484
+Z637 L0 4099
+R22
+r1
+31
+R23
+Z638 !s100 3aEebFWj:JeI>ePkR72]23
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized16
+Z639 InF91QOC]RjnkV_8L<B6D11
+Z640 V4Xlo3b<ZJ;TLmGlDe984>0
+R7
+R18
+R483
+R484
+Z641 L0 4563
+R22
+r1
+31
+R23
+Z642 !s100 _TW[bMT2N>0LCoRnTM^g[3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized17
+Z643 IU88kEH___3cFQ@zlAQi?S0
+Z644 VPlh_]hMZ5cRhWc_d1a6nG2
+R7
+R18
+R483
+R484
+Z645 L0 5027
+R22
+r1
+31
+R23
+Z646 !s100 g;^`O7W[3@ASBTP^F5Jj11
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized18
+Z647 Id9eWl5MFgcnH`eHzXEH5F2
+Z648 V36bFiHoE`:;@ZNzDB1HLh1
+R7
+R18
+R483
+R484
+Z649 L0 5491
+R22
+r1
+31
+R23
+Z650 !s100 KOZAC<`o71?M6b4S6=[gB1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized19
+Z651 IiVREi[Ej^D^28Y::S9;XR0
+Z652 VLkG?RiP4aB1UazlnUQB^?0
+R7
+R18
+R483
+R484
+Z653 L0 5955
+R22
+r1
+31
+R23
+Z654 !s100 bL^=JE[?TLj<djQj^^SC:0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized2
+Z655 I<kFT`eUT<2AK`Vz_1YeRE2
+Z656 VLPc2FBlI8bW^D4Z?Fb:_Y1
+R7
+R18
+R483
+R484
+Z657 L0 6419
+R22
+r1
+31
+R23
+Z658 !s100 RK93CbCPTW[XFK>WZF4NC3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized20
+Z659 I9Z`AV3T_[jl43JN_>g>MG3
+Z660 VkJTaNeOjGjM8RBFGLhOSK1
+R7
+R18
+R483
+R484
+Z661 L0 6676
+R22
+r1
+31
+R23
+Z662 !s100 `E:Q;=<RU]HGXA2f0ZEEd3
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized21
+Z663 IRdZI06@gCL<a`<@n_94mk0
+Z664 VBn^MmX4=bHnFdKO3K`4gK0
+R7
+R18
+R483
+R484
+Z665 L0 7140
+R22
+r1
+31
+R23
+Z666 !s100 GJHzf=<58aT[;b=0AlSP`0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized3
+Z667 Ik6XSM0@469?<lg[CRAod_3
+Z668 VA2SHHe8LFbcOic_k@2d3m1
+R7
+R18
+R483
+R484
+Z669 L0 7604
+R22
+r1
+31
+R23
+Z670 !s100 g1Y]jj[E<gg=?Cd1L1lOC0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized4
+Z671 IYl?<5WgXhNPGEh2LhaLXj0
+Z672 VW0[<J^bAcUL33BSH48cnL1
+R7
+R18
+R483
+R484
+Z673 L0 7861
+R22
+r1
+31
+R23
+Z674 !s100 aZ<fI4gW42G;^=UCMOT673
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized5
+Z675 IXHQU`B?OaFd8BZih:VCE91
+Z676 V76Wl_7Z]Ohj?HD=3IX=::2
+R7
+R18
+R483
+R484
+Z677 L0 8118
+R22
+r1
+31
+R23
+Z678 !s100 @=l2KdFQZcnJZ_kbc]YKN0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized6
+Z679 IM5]YELNcLe@zC0Smf2H^F0
+Z680 VcX4VbV3Wjcmff9aaGNQ6k1
+R7
+R18
+R483
+R484
+Z681 L0 8375
+R22
+r1
+31
+R23
+Z682 !s100 GCGPHoEVTFDgLlcjQ@IW82
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized7
+Z683 Ik_;QdnBA^SGRSc[C2?@i?0
+Z684 VG4;_li?h>>YT=M^J0>oS40
+R7
+R18
+R483
+R484
+Z685 L0 8632
+R22
+r1
+31
+R23
+Z686 !s100 GMPf`X@m^N2eRhimLPomT1
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized8
+Z687 I:je[gW<`gIme]b]He1h:A1
+Z688 VoFk:SAR0W=RdhzN:K<Q692
+R7
+R18
+R483
+R484
+Z689 L0 8889
+R22
+r1
+31
+R23
+Z690 !s100 j^?FfJBOFDoPf_8K:`69H0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_prim_wrapper_init__parameterized9
+Z691 IP:LeSez8kP3@ZZ2AIaWJR3
+Z692 VHiMUM=`6m]fS<>e_I2M:[0
+R7
+R18
+R483
+R484
+Z693 L0 9146
+R22
+r1
+31
+R23
+Z694 !s100 [YCFLd5`BJK0a_:zHlMgm0
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_top
+Z695 I`7BFaA`8OQiD80cAP6aNi0
+Z696 VE?zBD4c]1;gcncGin5AhH3
+R7
+R18
+R483
+R484
+Z697 L0 9402
+R22
+r1
+31
+R23
+Z698 !s100 R;9040?TA0986Q6kQHihR2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_v8_4_1
+Z699 IPPKTzh`fRT`V4=3j0e`7D0
+Z700 VZdcWiYHETzkb66n2cGP4H0
+R7
+R18
+R483
+R484
+Z701 L0 9457
+R22
+r1
+31
+R23
+Z702 !s100 SS@UgKck;<dNRP8z^YGRF2
+!s85 0
+vdecalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_blk_mem_gen_v8_4_1_synth
+Z703 IZ^B>IRMhOCW[O`]O0_LXo1
+Z704 Vo0>M^?e<8;WLT2;345?om1
+R7
+R18
+R483
+R484
+Z705 L0 9692
+R22
+r1
+31
+R23
+Z706 !s100 o]@R:d`KXj?W0FYB^LMb71
+!s85 0
+vfc_1
+Z707 IB<G?L:K5A6KQ[?WQNj8cH3
+Z708 VUa@5Y=mFbGR>AIhjbk85L3
+R7
+R18
+Z709 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v
+Z710 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v
+L0 27
+R22
+r1
+31
+R23
+Z711 !s100 <8Vj5L:DSTW217fCBjK5X0
+!s85 0
+vfc_2
+Z712 IhM7SNhhSCei?RZfG?C<J92
+Z713 V^^6lehLNJe8onh5YEgQFC1
+R7
+R18
+Z714 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v
+Z715 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v
+L0 26
+R22
+r1
+31
+R23
+Z716 !s100 j;gb3]S?<EUk6>F05g;Wi0
+!s85 0
+vglbl
+Z717 Ia<K`[l7aT9I[CmcjF7`=A2
+Z718 VnN]4Gon>inod6>M^M2[SV1
+R7
+R18
+Z719 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.sim/sim_1/behav/xsim/glbl.v
+Z720 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/vivado_project/project_src/lenet5_3/lenet5_3.sim/sim_1/behav/xsim/glbl.v
+L0 6
+R22
+r1
+31
+R23
+Z721 !s100 7cd<?T0KPANS9PBoRj:BY2
+!s85 0
+vlarger_index
+Z722 I9:15O>c:?;HgTQ_hlKhEF0
+Z723 VPPf?`<K2zGLGJGQB^3V9?1
+R7
+R18
+Z724 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v
+Z725 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v
+L0 1
+R22
+r1
+31
+R23
+Z726 !s100 IoSLgSMNf;?3PFcoiO0id2
+!s85 0
+vlenet_top
+Z727 IO`Ib=cbNB1ZZB8L[Z3IW?1
+Z728 VGN>X=LZBmBbkWF;5]m3Mc2
+R7
+Z729 w1685074832
+Z730 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v
+Z731 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v
+L0 34
+R22
+r1
+31
+R23
+Z732 !s100 ET6W_bhe0ZQb9K3Ii8?Uj1
+!s85 0
+vmax_index_10
+Z733 IJkKLbRYN`95;4D62;B8^03
+Z734 VTP?ieCI`B@S5;nDdD]KV83
+R7
+R18
+Z735 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v
+Z736 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v
+L0 1
+R22
+r1
+31
+R23
+Z737 !s100 AgFV6X4QDz[EVeU836[GU1
+!s85 0
+vmax_pool
+Z738 I]X7F`6QeMf2O66oH`8YhC3
+Z739 VOo9FJ;o9337QQ1h[7XzQP1
+R7
+R18
+Z740 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v
+Z741 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v
+L0 24
+R22
+r1
+31
+R23
+Z742 !s100 Aj`l0BSN5jM[OzG4PFTn[1
+!s85 0
+vmulti_add
+Z743 I1MhXGhD2lj3]KoPPnm0Ye3
+Z744 V78XD]2;YlNUY8]4=7dz0J0
+R7
+R18
+Z745 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v
+Z746 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v
+L0 26
+R22
+r1
+31
+R23
+Z747 !s100 CU`FLAgb=:_R?:WSHMFoY0
+!s85 0
+vpool_1
+Z748 IkN3=5ga`9HGe7Hmo5_Mji2
+Z749 V`UgIC>1UJXC?kfKm9cdYU0
+R7
+R18
+Z750 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v
+Z751 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v
+L0 28
+R22
+r1
+31
+R23
+Z752 !s100 TRMj8=ooa1kP]0=<c<gW@3
+!s85 0
+vpool_2
+Z753 I@AV8AI^X=Rc:Oe22iz8F>3
+Z754 VjJSoSo?WbZnSeENbfFEEF0
+R7
+R18
+Z755 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v
+Z756 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v
+L0 28
+R22
+r1
+31
+R23
+Z757 !s100 LTG12L]R7Dof1ZH70TMX33
+!s85 0
+vread_netlist_v8_4
+Z758 IA<V9=k[KgZjfezfB4JYl22
+Z759 V[;4QOIaEHM30m;X?GWh6B2
+R7
+R18
+R19
+R20
+Z760 L0 635
+R22
+r1
+31
+R23
+Z761 !s100 Z?G>?Mbi:E@5z43I0Rcid2
+!s85 0
+vrelu_1
+Z762 IhR2R^Me=k@L54<FPf8P1E0
+Z763 VaCSE>]555gFk?=LPz0K1l3
+R7
+R18
+Z764 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v
+Z765 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v
+L0 24
+R22
+r1
+31
+R23
+Z766 !s100 CL^<^^CB<OOTPESAGURFC3
+!s85 0
+vSTATE_LOGIC_v8_4
+Z767 I<L9IOJ6iZTjWMc9ekBmkU2
+Z768 VE^5o5Jo8Vn<8eYj69JdK02
+R7
+R18
+R19
+R20
+L0 73
+R22
+r1
+31
+R23
+Z769 n@s@t@a@t@e_@l@o@g@i@c_v8_4
+Z770 !s100 MH_n4?=PDAS_WW=@]g21c2
+!s85 0
+vTOP
+Z771 Mx1 24 C:\modeltech_6.6d\sv_std 3 std
+Z772 DXx24 C:\modeltech_6.6d\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z773 IIZaA6dafLmN[gF`0egl742
+Z774 V59gdggm`9@FJPa]O`=fIG2
+S1
+R7
+R18
+Z775 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/testbench/tb.sv
+Z776 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/testbench/tb.sv
+L0 5
+R22
+r1
+31
+R23
+Z777 n@t@o@p
+Z778 !s100 UK?3nE_eNLbG1doGfU]630
+Z779 !s105 tb_sv_unit
+!s85 0
+vtops
+R771
+R772
+Z780 I<_a[4@<jM1GJ3MYP]o6Y53
+Z781 V<]Q>fk1bibTZeQ7gHN5o@1
+S1
+R7
+Z782 w1685074953
+Z783 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/Final_top.sv
+Z784 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/Final_top.sv
+L0 1
+R22
+r1
+31
+R23
+Z785 !s100 :SDn=mYScT^c:]W_gGIPX0
+Z786 !s105 Final_top_sv_unit
+!s85 0
+vwrite_netlist_v8_4
+Z787 Im74=o1akUnDzL<QcKz4eh0
+Z788 Vng3:[FhK1MHI>=IzihMj30
+R7
+R18
+R19
+R20
+Z789 L0 166
+R22
+r1
+31
+R23
+Z790 !s100 QhEcQLbWo]V7;4Q;O1IlL3
+!s85 0
+vx7seg_dec
+R771
+R772
+Z791 Ic7mYX4jn:IS7oG`6HNa`73
+Z792 VRRa>0gW_`a3zki5Z2`6PX2
+S1
+R7
+R18
+Z793 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv
+Z794 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv
+L0 3
+R22
+r1
+31
+R23
+Z795 !s100 zcf^@KKa_[HM0jF27O5IF2
+Z796 !s105 x7seg_dec_sv_unit
+!s85 0
+vx7seg_scan
+R771
+R772
+Z797 IDelN:jXz0[UWKLTI^ZbVa3
+Z798 V:L1UXo?Ed?SISem2@hQT42
+S1
+R7
+R18
+Z799 8C:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv
+Z800 FC:/Users/minut/Desktop/licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv
+L0 3
+R22
+r1
+31
+R23
+Z801 !s100 `J4a?81[cF]^mKf4KW<`=2
+Z802 !s105 x7seg_scan_sv_unit
+!s85 0

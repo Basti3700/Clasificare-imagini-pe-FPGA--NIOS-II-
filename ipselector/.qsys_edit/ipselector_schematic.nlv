@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst ipselector.seg7 -pg 1 -lvl 3 -y 30
+preplace inst ipselector.clk_0 -pg 1 -lvl 2 -y 360
+preplace inst ipselector -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst ipselector.ipselector.reset_bridge -pg 1
+preplace inst ipselector.button -pg 1 -lvl 3 -y 430
+preplace inst ipselector.ipselector -pg 1 -lvl 1 -y 140
+preplace inst ipselector.ipselector.cpu -pg 1
+preplace inst ipselector.nios_top -pg 1 -lvl 3 -y 250
+preplace inst ipselector.ipselector.clock_bridge -pg 1
+preplace inst ipselector.debug -pg 1 -lvl 3 -y 140
+preplace inst ipselector.sdram -pg 1 -lvl 3 -y 340
+preplace netloc POINT_TO_POINT<net_container>ipselector</net_container>(SLAVE)debug.irq,(MASTER)ipselector.irq) 1 1 2 N 230 NJ
+preplace netloc EXPORT<net_container>ipselector</net_container>(SLAVE)ipselector.clk,(SLAVE)clk_0.clk_in) 1 0 2 NJ 370 NJ
+preplace netloc EXPORT<net_container>ipselector</net_container>(SLAVE)ipselector.button_rnd,(SLAVE)button.external_connection) 1 0 3 NJ 460 NJ 460 NJ
+preplace netloc POINT_TO_POINT<net_container>ipselector</net_container>(SLAVE)clk_0.clk_in_reset,(MASTER)ipselector.debug_reset_request) 1 1 1 490
+preplace netloc FAN_OUT<net_container>ipselector</net_container>(SLAVE)nios_top.clock,(SLAVE)debug.clk,(SLAVE)seg7.clk,(SLAVE)button.clk,(SLAVE)sdram.clk1,(SLAVE)ipselector.clk,(MASTER)clk_0.clk) 1 0 3 110 80 NJ 80 730
+preplace netloc EXPORT<net_container>ipselector</net_container>(SLAVE)ipselector.seg7_out,(SLAVE)seg7.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc FAN_OUT<net_container>ipselector</net_container>(MASTER)clk_0.clk_reset,(SLAVE)seg7.reset,(SLAVE)debug.reset,(SLAVE)nios_top.reset,(SLAVE)sdram.reset1,(SLAVE)button.reset,(SLAVE)ipselector.reset) 1 0 3 130 280 NJ 280 770
+preplace netloc INTERCONNECT<net_container>ipselector</net_container>(MASTER)ipselector.data_master,(SLAVE)ipselector.debug_mem_slave,(SLAVE)sdram.s1,(SLAVE)nios_top.avalon_slave_0,(SLAVE)button.s1,(MASTER)ipselector.instruction_master,(SLAVE)seg7.s1,(SLAVE)debug.avalon_jtag_slave) 1 0 3 130 100 510 210 750
+levelinfo -pg 1 0 80 990
+levelinfo -hier ipselector 90 250 560 830 980

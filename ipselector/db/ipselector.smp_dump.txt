@@ -1,0 +1,77 @@
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|state
+Name state.S_START state.S_CONV_1 state.S_POOL_1 state.S_CONV_2 state.S_POOL_2 state.S_CONV_3 state.S_FC_1 state.S_FC_2 
+state.S_START 0 0 0 0 0 0 0 0 
+state.S_FC_1 1 0 0 0 0 0 1 0 
+state.S_CONV_3 1 0 0 0 0 1 0 0 
+state.S_POOL_2 1 0 0 0 1 0 0 0 
+state.S_CONV_2 1 0 0 1 0 0 0 0 
+state.S_POOL_1 1 0 1 0 0 0 0 0 
+state.S_CONV_1 1 1 0 0 0 0 0 0 
+state.S_FC_2 1 0 0 0 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|fc_2:u_fc_2|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_WEIGHTS state.S_LOAD_BIAS state.S_LOAD_DATA state.S_MULTI_ADD state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 0 0 
+state.S_MULTI_ADD 1 0 0 0 0 1 0 
+state.S_LOAD_DATA 1 0 0 0 1 0 0 
+state.S_LOAD_BIAS 1 0 0 1 0 0 0 
+state.S_LOAD_WEIGHTS 1 0 1 0 0 0 0 
+state.S_CHECK 1 1 0 0 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|fc_1:u_fc_1|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_WEIGHTS state.S_LOAD_BIAS state.S_LOAD_DATA state.S_MULTI_ADD state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 0 0 
+state.S_MULTI_ADD 1 0 0 0 0 1 0 
+state.S_LOAD_DATA 1 0 0 0 1 0 0 
+state.S_LOAD_BIAS 1 0 0 1 0 0 0 
+state.S_LOAD_WEIGHTS 1 0 1 0 0 0 0 
+state.S_CHECK 1 1 0 0 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|conv_3:u_conv_3|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_WEIGHTS state.S_LOAD_BIAS state.S_LOAD_DATA state.S_CONVOLUTE state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 0 0 
+state.S_CONVOLUTE 1 0 0 0 0 1 0 
+state.S_LOAD_DATA 1 0 0 0 1 0 0 
+state.S_LOAD_BIAS 1 0 0 1 0 0 0 
+state.S_LOAD_WEIGHTS 1 0 1 0 0 0 0 
+state.S_CHECK 1 1 0 0 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|pool_2:u_pool_2|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_DATA state.S_POOLING state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 
+state.S_POOLING 1 0 0 1 0 
+state.S_LOAD_DATA 1 0 1 0 0 
+state.S_CHECK 1 1 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|conv_2:u_conv_2|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_WEIGHTS state.S_LOAD_BIAS state.S_LOAD_DATA state.S_CONVOLUTE state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 0 0 
+state.S_CONVOLUTE 1 0 0 0 0 1 0 
+state.S_LOAD_DATA 1 0 0 0 1 0 0 
+state.S_LOAD_BIAS 1 0 0 1 0 0 0 
+state.S_LOAD_WEIGHTS 1 0 1 0 0 0 0 
+state.S_CHECK 1 1 0 0 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|pool_1:u_pool_1|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_DATA state.S_POOLING state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 
+state.S_POOLING 1 0 0 1 0 
+state.S_LOAD_DATA 1 0 1 0 0 
+state.S_CHECK 1 1 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 1 
+
+State Machine - |ipselector|tops:nios_top|lenet_top:lenet_top|conv_1:u_conv_1|state
+Name state.S_IDLE state.S_CHECK state.S_LOAD_WEIGHTS state.S_LOAD_BIAS state.S_LOAD_DATA state.S_CONVOLUTE state.S_STORE_RESULT 
+state.S_IDLE 0 0 0 0 0 0 0 
+state.S_CONVOLUTE 1 0 0 0 0 1 0 
+state.S_LOAD_DATA 1 0 0 0 1 0 0 
+state.S_LOAD_BIAS 1 0 0 1 0 0 0 
+state.S_LOAD_WEIGHTS 1 0 1 0 0 0 0 
+state.S_CHECK 1 1 0 0 0 0 0 
+state.S_STORE_RESULT 1 0 0 0 0 0 1 

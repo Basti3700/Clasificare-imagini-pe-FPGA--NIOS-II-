@@ -1,0 +1,19 @@
+library verilog;
+use verilog.vl_types.all;
+entity tops is
+    port(
+        sys_clk         : in     vl_logic;
+        sys_rst_n       : in     vl_logic;
+        start           : in     vl_logic;
+        graph           : in     vl_logic_vector(4 downto 0);
+        an              : out    vl_logic_vector(7 downto 0);
+        a_to_g          : out    vl_logic_vector(7 downto 0);
+        lenet_finish    : out    vl_logic;
+        c1_finish       : out    vl_logic;
+        c2_finish       : out    vl_logic;
+        c3_finish       : out    vl_logic;
+        f4_finish       : out    vl_logic;
+        f5_finish       : out    vl_logic;
+        led_rgb         : out    vl_logic_vector(2 downto 0)
+    );
+end tops;

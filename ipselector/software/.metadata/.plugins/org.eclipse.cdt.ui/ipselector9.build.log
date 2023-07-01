@@ -1,0 +1,9 @@
+00:30:01 **** Incremental Build of configuration Nios II for project ipselector9 ****
+wsl make all 
+Info: Building /mnt/c/Users/minut/Desktop/ipselector/software/ipselector9_bsp/
+make --no-print-directory -C /mnt/c/Users/minut/Desktop/ipselector/software/ipselector9_bsp/
+[BSP build complete]
+[ipselector9 build complete]
+
+00:30:02 Build Finished (took 1s.222ms)
+
