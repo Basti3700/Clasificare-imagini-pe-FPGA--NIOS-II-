@@ -1,14 +1,14 @@
 |ipselector
 button_rnd_export => button_rnd_export.IN1
 clk_clk => clk_clk.IN9
-seg7_out_export[0] <= ipselector_seg7:seg7.out_port
-seg7_out_export[1] <= ipselector_seg7:seg7.out_port
-seg7_out_export[2] <= ipselector_seg7:seg7.out_port
-seg7_out_export[3] <= ipselector_seg7:seg7.out_port
-seg7_out_export[4] <= ipselector_seg7:seg7.out_port
-seg7_out_export[5] <= ipselector_seg7:seg7.out_port
-seg7_out_export[6] <= ipselector_seg7:seg7.out_port
-seg7_out_export[7] <= ipselector_seg7:seg7.out_port
+seg7_out_export[0] << ipselector_seg7:seg7.out_port
+seg7_out_export[1] << ipselector_seg7:seg7.out_port
+seg7_out_export[2] << ipselector_seg7:seg7.out_port
+seg7_out_export[3] << ipselector_seg7:seg7.out_port
+seg7_out_export[4] << ipselector_seg7:seg7.out_port
+seg7_out_export[5] << ipselector_seg7:seg7.out_port
+seg7_out_export[6] << ipselector_seg7:seg7.out_port
+seg7_out_export[7] << ipselector_seg7:seg7.out_port
 
 
 |ipselector|ipselector_button:button

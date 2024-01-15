@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 isTrain = True
 isForward = False
-path0 = "\\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_pytorch\pic"
+path0 = "\\Users\minut\Desktop\projects\Clasificare-imagini-pe-FPGA--NIOS-II-\pytorch\pic"
 
 data_train = MNIST('./data/mnist',
                    download=True,
@@ -36,8 +36,7 @@ data_train_loader = DataLoader(data_train, batch_size=256, shuffle=True, num_wor
 data_test_loader = DataLoader(data_test, batch_size=1024, num_workers=8)
 
 net = LeNet5()
-# net.load_state_dict(torch.load("\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_pytorch\model_saved\net.pth"))
-
+net.load_state_dict(torch.load("\\Users\minut\Desktop\projects\Clasificare-imagini-pe-FPGA--NIOS-II-\pytorch\model_saved\\net.pth"))
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(net.parameters(), lr=2e-3)
@@ -88,7 +87,7 @@ def test():
 def train_and_test(epoch):
     train(epoch)
     test()
-    torch.save(obj=net.state_dict(), f="\\Users\minut\Desktop\licentaaaa\LeNet-5_FPGA-main\LeNet-5_FPGA-main\src\LeNet_pytorch\model_saved\ net.bin")
+    torch.save(obj=net.state_dict(), f="\\Users\minut\Desktop\projects\Clasificare-imagini-pe-FPGA--NIOS-II-\pytorch\model_saved\ net.bin")
     dummy_input = torch.randn(1, 1, 32, 32, requires_grad=True)
     torch.onnx.export(net, dummy_input, "lenet.onnx", opset_version=11)
 

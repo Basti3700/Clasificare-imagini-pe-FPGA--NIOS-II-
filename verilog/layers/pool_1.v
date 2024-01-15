@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// 
-// Design Name: 
-// Module Name: pool_1
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// 
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 
 // Definition of parameters and macros
 `define CONV1_DEEP 6         // Number of channels in the first convolutional layer

@@ -191,7 +191,7 @@ module lenet_top(
       .address(input_bram_addra),  // input wire [12 : 0] addra
       //.data(input_bram_dina),    // input wire [`DATA_SIZE - 1 : 0] dina
       .q(input_bram_douta), 
-	   .rden(~bias_weights_bram_wea),	// output wire [`DATA_SIZE - 1 : 0] douta
+	   .rden(~input_bram_wea),	// output wire [`DATA_SIZE - 1 : 0] douta
 		.wren(input_bram_wea)
     );
     

@@ -78,24 +78,24 @@ set_location_assignment PIN_B8 -to button_rnd_export
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE ../verilog/lenet_top.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../verilog/x7seg/x7seg_scan.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../verilog/x7seg/x7seg_dec.sv
+set_global_assignment -name VERILOG_FILE ../verilog/layers/relu_1.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/pool_2.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/pool_1.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/multi_add.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/max_pool.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/max_index_10.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/larger_index.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/fc_2.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/fc_1.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/conv_3.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/conv_2.v
+set_global_assignment -name VERILOG_FILE ../verilog/layers/conv_1.v
 set_global_assignment -name MIF_FILE initialization_mem_2/blk_mem_gen_2.mif
 set_global_assignment -name MIF_FILE initialization_mem_0/blk_mem_gen_0.mif
 set_global_assignment -name QSYS_FILE ipselector.qsys
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/lenet_top.v"
-set_global_assignment -name SYSTEMVERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_scan.sv"
-set_global_assignment -name SYSTEMVERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/x7seg/x7seg_dec.sv"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/relu_1.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_2.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/pool_1.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/multi_add.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_pool.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/max_index_10.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/larger_index.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_2.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/fc_1.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_3.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_2.v"
-set_global_assignment -name VERILOG_FILE "../licentaaaa/LeNet-5_FPGA-main/LeNet-5_FPGA-main/src/LeNet_verilog/layers/conv_1.v"
 set_global_assignment -name QIP_FILE blk_mem_gen_0.qip
 set_global_assignment -name QIP_FILE blk_mem_gen_1.qip
 set_global_assignment -name QIP_FILE blk_mem_gen_2.qip

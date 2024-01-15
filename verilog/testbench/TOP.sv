@@ -9,16 +9,16 @@ module TOP (
     logic rst;
     logic start;
     logic [4:0] graph;
-    logic [`DATA_SIZE*`OUTPUT_NODE-1:0] result;
-    logic lenet_finish;  
-    logic [7:0] an;
+    //logic [`DATA_SIZE*`OUTPUT_NODE-1:0] result;
+   // logic lenet_finish;  
+   // logic [7:0] an;
     logic [7:0] a_to_g;
-    logic c1_finish;
-    logic c2_finish;
-    logic c3_finish;
-    logic f4_finish;
-    logic [2:0] led_rgb;
-    logic f5_finish;
+    //logic c1_finish;
+    //logic c2_finish;
+    //logic c3_finish;
+    //logic f4_finish;
+    //logic [2:0] led_rgb;
+    //logic f5_finish;
 
 
     tops tops(
